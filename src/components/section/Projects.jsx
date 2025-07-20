@@ -6,7 +6,7 @@ export const Projects = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="gallery-card bg-gray-800 rounded-lg p-4">
-                    <img src="src\photo\Aboutme\Screenshot 2024-07-31 193627.png"/>
+                    <img src="\photo\Project-Dilemma.png"/>
                     <h3 className="text-2xl font-semibold mt-2">
                         Project Dillemma
                     </h3>
@@ -15,7 +15,7 @@ export const Projects = () => {
                     </p>
                 </div>
                 <div className="gallery-card bg-gray-800 rounded-lg p-4">
-                    <img src="src\photo\Aboutme\Screenshot 2025-07-17 135327.png"/>
+                    <img src="\photo\Porto-Web.png"/>
                     <h3 className="text-2xl font-semibold mt-2">
                         TooRue Webpage
                     </h3>
