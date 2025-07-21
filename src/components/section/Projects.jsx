@@ -4,7 +4,7 @@ export const Projects = () => {
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-purple-500 bg-clip-text text-transparent text-center">
                 Projects
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="gallery-card bg-gray-800/20 backdrop-blur-md rounded-lg p-4">
                     <img src="\photo\Project-Dilemma.png"/>
                     <h3 className="text-2xl font-semibold mt-2">
@@ -13,7 +13,6 @@ export const Projects = () => {
                     <p className="text-sm text-gray-400">
                         Project Dilemma is a chaotic, narrative-driven game where players use wit to navigate unpredictable scenarios. Available on Windows, it features exploration, inventory management, and character interactions with detailed art and animations. At 65% completion, it offers an engaging, story-focused experience.
                     </p>
-
                     <div className="flex justify-between items-center">
                         <a
                         href="https://jeremy-wowiling.itch.io/project-dilemma" target="_blank"
@@ -39,6 +38,12 @@ export const Projects = () => {
                         View Project →
                         </a>
                     </div>
+                </div>
+                <div className="gallery-card bg-gray-800/20 backdrop-blur-md rounded-lg p-4">
+                    <img src=""/>
+                    <h3 className="text-xl font-semibold mt-2 flex items-center justify-center text-center text-gray-500 h-full">
+                        Coming Soon
+                    </h3>
                 </div>
             </div>
         </div>
